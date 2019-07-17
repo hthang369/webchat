@@ -79,6 +79,12 @@
           awesome-vue
         </a>
       </li>
+      <li>
+        <router-link :to="{name: BoxChat}"
+                             exact>
+            Box chat
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>

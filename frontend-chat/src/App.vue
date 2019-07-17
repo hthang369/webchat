@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <router-link :to="{ name: 'Hello' }">Home</router-link>
+    <router-link to="/box-chat">Box chat</router-link>
     <router-view/>
   </div>
 </template>
